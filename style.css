@@ -1,0 +1,57 @@
+* {margin: 0; padding: 0; box-sizing: border-box;}
+
+html, body {
+    width: 100%;
+    background-color: #215379;
+}
+
+#container {
+    width: 610px;
+    min-height: 100vh;
+    border: 1px solid black;
+    margin: 0  auto;
+    text-align: center;
+    box-shadow: 0 0 20px gainsboro;
+    color: white;
+    background-color: #0c293f;
+}
+h1 {
+    margin: 10px 0;
+    font-size: 30px;
+}
+.line {
+    width: 80%;
+    text-align: center;
+    height: 2px;
+    margin: 10px auto;
+    background-color: rgb(199, 148, 21);
+}
+.container-list {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    color: black;
+}
+input, button {
+    padding: 10px 20px;
+}
+#current-job, #completed {
+    width: 90%;
+    margin: 10px auto;
+}
+.checklist-bar:hover {
+    transform: scale(1.2);
+    transition: all 0.5s;
+    background-color: gold;
+}
+.delete-bar:hover {
+    transition: all 0.7s;
+    box-shadow: 0 0 5px grey;
+    transform: scale(1.1);
+    background-color: gold;
+}
